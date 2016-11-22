@@ -1,0 +1,23 @@
+{
+  "vertices":[
+    {"name":"CS101","_id":1,"_type":"vertex"},
+    {"name":"CS201","_id":2,"_type":"vertex"},
+    {"name":"CS220","_id":3,"_type":"vertex"},
+    {"name":"CS420","_id":4,"_type":"vertex"},
+    {"name":"CS334","_id":5,"_type":"vertex"},
+    {"name":"CS400","_id":6,"_type":"vertex"},
+    {"name":"CS681","_id":7,"_type":"vertex"},
+    {"name":"CS526","_id":8,"_type":"vertex"}
+  ],
+  "edges":[
+    {"weight":1.0,"_id":9,"_type":"edge","_outV":2,"_inV":1,"_label":"prereq"},
+    {"weight":1.0,"_id":10,"_type":"edge","_outV":3,"_inV":2,"_label":"prereq"},
+    {"weight":1.0,"_id":11,"_type":"edge","_outV":4,"_inV":3,"_label":"prereq"},
+    {"weight":1.0,"_id":12,"_type":"edge","_outV":4,"_inV":3,"_label":"coreq"},
+    {"weight":1.0,"_id":13,"_type":"edge","_outV":5,"_inV":2,"_label":"prereq"},
+    {"weight":1.0,"_id":14,"_type":"edge","_outV":6,"_inV":5,"_label":"prereq"},
+    {"weight":1.0,"_id":15,"_type":"edge","_outV":7,"_inV":5,"_label":"prereq"},
+    {"weight":1.0,"_id":16,"_type":"edge","_outV":8,"_inV":6,"_label":"prereq"},
+    {"weight":1.0,"_id":17,"_type":"edge","_outV":8,"_inV":6,"_label":"coreq"}
+  ]
+}
